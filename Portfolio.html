@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Corrected meta tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO using html,css,javascript</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://kit.fontawesome.com/f8ca7d1656.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="header">
+        <div class="container">
+
+            <nav> 
+                <img src="images/photo-output copy.JPEG" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>   
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                
+             </nav>
+             <div class="header-text">
+                <p>Project Manager</p>
+                <h1>Hi, I'm <span> Subhalekha,</span><br>a recent graduate with a Master's in International Business Management </h1>
+ 
+             </div>  
+    </div>
+    </div>
+
+<!-----------------about------------->
+
+    <div id="about">
+
+        <div class="container">
+            <div class="row">
+
+                <div class="about-col-1">
+                    <img src="images/IMG_7840 copy.jpg">
+                </div>
+            
+                <div class="about-col-2">
+                    <h1 class="sub-title"> About me</h1>
+                    <p>I am Subhalekha Venkatesan, a recent Master's graduate in International Business Management from Edinburgh Napier University with expertise in global business strategies, market analysis, and international trade.
+                         My Bachelor's in Agriculture provides unique insights into sustainable practices and supply chain management.
+                         Proficient in advanced Microsoft Excel, Power BI, HTML, CSS, and JavaScript, I have a solid understanding of logistical intricacies from my experience at Amazon Warehouse. 
+                         My role at Nando's Restaurant honed my customer service and teamwork skills. Known for strong communication, problem-solving, and 
+                         organizational efficiency, I am passionate about contributing to international business with a blend of technical expertise and a proactive approach. </p>
+
+                         <div class = "tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            
+
+                         </div>
+
+                         <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Project Managment</span><br><p>Plan, execute, and oversee projects, ensuring they are completed on time, 
+                                    within scope, and budget. They manage resources, mitigate risks,
+                                     and communicate with stakeholders to achieve project objectives.</p></li>
+                                     <li><span>Web Development</span><br><p>I am proficient in web development using HTML, CSS, and JavaScript. 
+                                        I create responsive, user-friendly websites by structuring content with HTML, styling with CSS, and adding 
+                                        interactivity with JavaScript.This combination allows me to build complete,
+                                         functional, and visually appealing web solutions.</p></li>
+                                         <li><span>Power Bi</span><br><p>I have advanced skills in Power BI, allowing me to create dynamic, interactive dashboards and visualizations. 
+                                            I can effectively transform data into actionable insights, 
+                                            helping businesses make informed decisions through clear, visually appealing reports.</p></li>
+                                            <li><span>Ms Excel</span><br><p>I possess advanced proficiency in Microsoft Excel, specializing in Pivot Tables and VBA projects. 
+                                                With this expertise, I adeptly analyze data, automate processes, and generate comprehensive reports, ensuring efficient operations
+                                                 and insightful decision-making capabilities.</p></li>
+                            </ul>
+
+                         </div>
+
+
+                         <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Excel VBA Dashboards</span><br><p>Created multiple VBA project dashboards in Excel to streamline data analysis and reporting processes.</p></li>
+                                     <li><span>Pivot Table Expertise</span><br><p>Proficient in Pivot Tables, capable of creating dynamic data summaries and insightful analytics.</p></li>
+                                         <li><span>Web Development</span><br><p>Developed my personal portfolio website using HTML, CSS, and JavaScript, showcasing proficiency in web development.</p></li>
+                                            <li><span>Power Bi Dashboards</span><br><p>Designed efficient dashboards and visualizations in Power BI for dynamic data analysis and reporting.</p></li>
+                                            <li><span>Customer Service Excellence</span><br><p>Onboarded and provided exceptional service to 200+ customers per shift at Nando’s Restaurant.
+                                                Memorized 100+ menu items, enhancing customer dining experiences.
+                                                Recognized with highest mentions and awarded for best hospitality service.
+                                                Managed Customer Relationship Management & Point of Sale System with zero errors.
+                                                Trained 10+ new staff members on technical systems, ensuring smooth operations.</p></li>
+                            </ul>
+
+                         </div>
+
+
+                         <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2022-2023</span><br/><h5>Master of Science in International Business Management</h5><br/>EDINBURGH NAPIER UNIVERSITY, UNITED KINGDOM<br/><p>Developed strong foundation in management skills through coursework and hands-on projects.
+                                    Honed analytical and problem-solving abilities, with a focus on international business strategies.
+                                    Acquired expertise in analysing complex business issues, making objective decisions, and generating innovative ideas
+                                    </p></li>
+                                     <li><span>2018-2022</span><br/><h5>Bachelor of Science in Agriculture</h5><br/> KARUNYA UNIVERISTY, INDIA<br/><p>Cultivated a deep understanding of agricultural principles, practices, and technologies through rigorous coursework and hands-on training.
+                                     Developed expertise in sustainable farming techniques, crop management, and soil conservation.
+                                        Collaborated with peers on research projects, enhancing problem-solving and teamwork abilities.
+                                        </p></li>
+                                         
+                            </ul>
+
+                         </div>
+                </div>
+
+                 
+            </div>
+        </div>
+    </div>
+
+<!------------------------Services-------------------------->
+
+<div id="services">
+
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+        <div>
+            <h2>Power Bi/ Ms Excel</h2>
+            <p>I possess extensive knowledge in Power BI and Microsoft Excel,
+                 specializing in project management, pivot tables, charts, and 
+                 data visualization. My expertise includes creating dynamic, interactive dashboards
+                  and comprehensive reports that transform complex data into actionable insights. This proficiency ensures efficient 
+                  operations and supports informed decision-making within any business environment</p>
+            <a href="#">Learn more</a>
+
+
+
+        </div>
+        <div>
+            <h2>Web Development</h2>
+            <p>I have a strong proficiency in web development, 
+                specializing in HTML, CSS, and JavaScript. My expertise includes 
+                creating responsive, user-friendly websites and web applications, with a
+                 focus on clean design and interactivity. I have developed various projects, including my personal portfolio,
+                 showcasing my ability 
+                 to build complete,
+                  functional, and
+                 visually appealing web solutions.</p>
+            <a href="#">Learn more</a>
+
+    </div>
+    <div>
+        <h2>Project Management</h2>
+        <p>I  have a robust background in project management, adept at planning, 
+            executing, and overseeing 
+            projects to ensure they are completed on time, within scope, and budget. 
+            My expertise includes resource management, risk mitigation,
+             and effective stakeholder communication. I excel at coordinating cross-functional 
+             teams, ensuring efficient workflows, and delivering successful project outcomes.</p>
+        <a href="#">Learn more</a>
+
+</div>
+</div>
+
+
+<!---------------------Portfolio-------------------------->
+
+<div id="portfolio">
+
+<div class="container">
+
+    <h1 class="sub-title">My Works</h1>
+
+    <div class="worl-list">
+        <div class="work">
+                <img src="images/2 copy.jpg">
+                <div class="layer">
+                    <h2>Data visualization</h2>
+                    <p>"I created a dynamic sales data dashboard tailored for McDonald's, employing sophisticated data visualization techniques to deliver actionable 
+                        insights. This interactive tool integrates crucial metrics such as sales trends, regional comparisons, and product performance, presented through an intuitive interface.
+                         By transforming complex data into clear, informative visualizations, I enabled stakeholders to make informed decisions swiftly and effectively. This project not only underscores
+                          my expertise in data analytics and visualization but also 
+                        demonstrates my commitment to enhancing operational efficiency and driving strategic growth through data-driven insights."</p>
+
+
+                </div>
+            
+            </div>
+
+            <div class="work">
+                <img src="images/3 copy.jpg">
+                <div class="layer">
+                    <h2>Pivot chart</h2>
+                    <p>"I designed a pivotal shipment analysis chart featuring dynamic data on shipment methods and shipping routes. 
+                        This visual tool enables swift analysis and insights into shipment trends, highlighting efficiencies and areas for
+                         improvement. By integrating dynamic data, I ensured the chart remains responsive to updates, providing stakeholders with real-time 
+                         visibility into logistical operations. This project underscores my proficiency in data visualization and analytics, empowering
+                          decision-makers
+                         with actionable insights to optimize shipping strategies effectively."</p>
+
+
+                </div>
+            
+            </div>
+
+            <div class="work">
+                <img src="images/1 copy.jpg">
+                <div class="layer">
+                    <h2>VBA Project </h2>
+                    <p>"I implemented automation solutions using VBA to streamline header insertion, table formatting, and dynamic 
+                        data calculations for total sales, profit, and loss analysis. This project automated repetitive tasks, enhancing efficiency and
+                         accuracy in data processing and reporting. By integrating these functionalities, I enabled seamless updates and real-time insights into business 
+                         performance metrics.
+                          This experience showcases my proficiency in leveraging VBA for data management and analysis,
+                         demonstrating my commitment to optimizing workflows and facilitating informed decision-making."</p>
+
+
+                </div>
+            
+            </div>
+
+
+
+        </div>
+</div>
+
+
+
+
+
+
+</div>
+
+</div>
+
+
+<!---------------------CONTACT-------------------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">CONTACT ME</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>sairamsri485@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>07498330114</p>
+                <div class="social-icons">
+                    <a href=""> <i class="fa-brands fa-instagram"></i></a>
+                    <a href=""> <i class="fa-brands fa-whatsapp"></i></a>
+                    <a href=""> <i class="fa-brands fa-linkedin"></i></a>
+
+
+
+                </div>
+
+                <a href="SUBHALEKHA.VENKATESAN Resume copy.pdf" download class="btn btn2">Download Cv</a>
+
+
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email"  placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6"   placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                </form>
+                <span id="msg"></span>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+<div class="copyright">
+
+    <p>Portfolio copyright © Subhalekha Venkatesan</p>
+   
+</div>
+
+</div>
+
+
+
+
+
+
+
+<script>
+
+var tablinks= document.getElementsByClassName("tab-links");
+var tabcontents= document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab")
+}
+
+</script>
+
+
+
+<script>
+
+var sidemenu = document.getElementById("sidemenu");
+
+function openmenu(){
+
+    sidemenu.style.right="0";
+}
+function closemenu(){
+
+sidemenu.style.right="-200px";
+}
+
+
+
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxX-78CvloFPRzvcMD5mBh_vMqknFTrWHXCatShgFAtoTy1sOL8gMvQ-4uETX6pwOpD/exec'
+    const form = document.forms['submit-to-google-sheet']
+  const msg= document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
