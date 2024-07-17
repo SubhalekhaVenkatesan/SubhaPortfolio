@@ -19,7 +19,7 @@ body {
 #header {
   width: 100%; /* Adjust as necessary */
   height: 100vh; /* Adjust as necessary */
-  background-image: url("bgm copy.JPG"); /* Verify image path and filename */
+  background-image: url("bgm copy.jpg"); /* Verify image path and filename */
   background-size: cover;
   background-position: center center; /* Center the background image horizontally and vertically */
 }
