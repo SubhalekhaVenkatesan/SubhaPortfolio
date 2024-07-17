@@ -19,10 +19,12 @@ body {
 #header {
   width: 100%; /* Adjust as necessary */
   height: 100vh; /* Adjust as necessary */
-  background-image: url(photo-output-2 copy.JPEG); /* Verify image path and filename */
+  background-image: url('photo-output-2 copy.JPEG'); /* Verify image path and filename */
   background-size: cover;
   background-position: center center; /* Center the background image horizontally and vertically */
+  background-color: #f0f0f0; /* Fallback background color */
 }
+
 
 .container{
 
